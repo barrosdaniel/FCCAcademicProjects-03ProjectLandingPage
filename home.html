@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+<div id="content">
+    <header id="header">
+        <div id="logo">
+            <img src="IMG/logo.png" alt="Electric Cars North logo" id="header-img">
+            <h1 id="title">Electric Co.</h1>
+        </div>
+        <nav id="nav-bar">
+            <a href="#video" class="nav-link">Video</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#form-title" class="nav-link">Brochure</a>
+        </nav>
+    </header>
+
+    <h1 id="call">Come take part in the revolution</h1>
+
+    <div id="video-container">
+        <iframe id="video" src="https://www.youtube.com/embed/azUbCdcAeFM?playlist=azUbCdcAeFM&loop=1"></iframe>
+    </div>
+
+    <div id="gallery">
+        <h2 id="gallery-title">Gallery</h2>
+        <div id="gallery-tiles">
+            
+        </div>
+
+
+    </div>
+
+    <div id="form-section">
+        <h2 id="form-title">Request Brochure</h2>
+        <form action="submit" id="form">
+            <div class="form-row">
+                <div class="labels">
+                    <label id="name-label" for="name">*Name:</label>
+                </div>
+                <div class="controls">
+                    <input type="text" name="name" id="name" required placeholder="Enter your name">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="labels">
+                    <label id="email-label" for="email">*Email:</label>
+                </div>
+                <div class="controls">
+                    <input type="email" name="email" id="email" required placeholder="Enter your email address">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="labels">
+                    <p id="model-label">Which model are you interested in?</p>
+                </div>
+                <div class="controls">
+                    <div id="model-options">
+                        <input type="checkbox" name="model" id="model-3" value="model-3">
+                        <label for="model-3">Model 3</label></br>
+                        <input type="checkbox" name="model" id="model-s" value="model-s">
+                        <label for="model-s">Model S</label></br>
+                        <input type="checkbox" name="model" id="model-x" value="model-x">
+                        <label for="model-x">Model X</label></br>
+                    </div>
+                </div>
+            </div>
+
+            <input type="submit" id="submit" value="Get brochure!">
+        </form>
+
+    </div>
+
+    <footer id="footer">
+        <div id="footer-nav">
+            <a href="#" class="nav-link">Privacy</a>
+            <a href="#" class="nav-link">Contact</a>
+        </div>
+        <div id="copyright">
+            <h6>Copyright 2018, Electric Co.</h6>
+        </div>
+    </footer>
+
+</div>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
