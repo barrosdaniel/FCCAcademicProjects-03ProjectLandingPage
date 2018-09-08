@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/styles.css">
-    <title>Product Landing Page</title>
+    <title>Electric Co.</title>
 </head>
 <body>
 <div id="content">
@@ -29,10 +29,56 @@
     <div id="gallery">
         <h2 id="gallery-title">Gallery</h2>
         <div id="gallery-tiles">
-            
+
+            <div class="gallery-tile">
+                <a target="_blank" href="/IMG/model3.jpg">
+                    <div class="img-container">
+                        <img src="/IMG/model3.jpg" alt="Tesla Model 3">
+                    </div>
+                    <div class="tile-text">
+                        <h3 class="tile-title">Tesla Model 3</h3>
+                        <ul>
+                            <li class="tile-model-point">Sporty</li>
+                            <li class="tile-model-point">Affordable</li>
+                            <li class="tile-model-point">High performance</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-tile">
+                    <a target="_blank" href="/IMG/modelS.jpg">
+                        <div class="img-container">
+                            <img src="/IMG/modelS.jpg" alt="Tesla Model S">
+                        </div>
+                        <div class="tile-text">
+                            <h3 class="tile-title">Tesla Model S</h3>
+                            <ul>
+                                <li class="tile-model-point">Luxury</li>
+                                <li class="tile-model-point">Comfort</li>
+                                <li class="tile-model-point">Extra Range</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery-tile">
+                        <a target="_blank" href="/IMG/modelX.jpg">
+                            <div class="img-container">
+                                <img src="/IMG/modelX.jpg" alt="Tesla Model X">
+                            </div>
+                            <div class="tile-text">
+                                <h3 class="tile-title">Tesla Model X</h3>
+                                <ul>
+                                    <li class="tile-model-point">SUV</li>
+                                    <li class="tile-model-point">Entertainment</li>
+                                    <li class="tile-model-point">Autonomous Driving</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+        
         </div>
-
-
     </div>
 
     <div id="form-section">
@@ -89,7 +135,12 @@
 
 </div>
 
-
+<script>
+    var request = document.getElementById('submit');
+    request.addEventListener('click', function (params) {
+       alert('This starts the download brochure feature in the site backend. If you are redirected, please press the \'Back\' button on your browser window.');
+    });
+</script>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
